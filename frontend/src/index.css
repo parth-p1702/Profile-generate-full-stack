@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body{
+  background-color: rgb(15, 15, 15);
+  color: whitesmoke;
+}
+
+.users{
+  width: auto;
+  padding-block: 0.5rem;
+  padding-inline: 1.5rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.user{
+  background: #56564d;
+  width: 350px;
+  min-width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  
+}
+
+.user img{
+  width: 4.5rem;
+  height: 4.5rem;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user h3{
+  font-size: 1.35rem;
+}
+
+.user p{
+  color: #dfdfdf;
+  font-size: 0.90rem;
+}
+
+.user button{
+  padding: 5px 10px;
+  background-color: rgb(255, 0, 51);
+  color: rgb(233, 233, 233);
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 0.5px;
+}
+
+.user button:hover{
+  background-color: rgb(254, 18, 18);
+}
+
+.form-create{
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  padding-block: 1.2rem;
+  padding-inline: 1rem;
+}
+
+.form-create input{
+  padding: 10px 20px;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  width: none;
+}
+
+.form-create button{
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: lightseagreen;
+  border: 1px solid white;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.form-create button:hover{
+  background-color: rgb(0, 209, 199);
+}
